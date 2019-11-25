@@ -10,7 +10,7 @@ def Merge(dict1, dict2):
     return res 
 def get_players_attributes(champion_name,role,team,summoner_name,champions):
 	league = league_api.LeagueAPI()
-	league.set_key("RGAPI-d186c4b8-e781-4639-ad3e-f1eb49014cff")
+	league.set_key("RGAPI-db65219a-c6b4-447f-8a9f-074b0a2fa394")
 	print("got leage")
 	(summonerName,summonerId,accountId) = league.get_player_name(summoner_name)
 	player_match_hist = league.get_player_match_hist(accountId)[:3]
