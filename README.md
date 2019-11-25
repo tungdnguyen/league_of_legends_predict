@@ -1,3 +1,4 @@
 # League of legends prediction using Spark 
 
-The whole process is made in Spark 
+This is a big data pipeline and machine learning model to predict League of Legends matches. 
+It is deployed to a webapp.
